@@ -1,0 +1,31 @@
+body {
+    -webkit-animation: colorchange 60s infinite; 
+   animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+    0%  {background: #039dfc;}
+   25%  {background: #f2a79e;}
+   50%  {background: #8ef9e4;}
+   75%  {background: #f9f771;}
+   100% {background: #9B59B6;}
+}
+@keyframes colorchange {
+    0%  {background: #039dfc;}
+   25%  {background: #f2a79e;}
+   50%  {background: #8ef9e4;}
+   75%  {background: #f9f771;}
+   100% {background: #9B59B6;}
+}
+a{
+    color: rgb(250, 0, 0);
+    font-size: 45px;
+    background-color: rgb(16, 9, 0);
+}
+h2{
+    color: rgb(2, 94, 254);
+    background-color: aquamarine;
+
+}
+h1{
+    font-family: 'Nerko One', cursive;
+}
